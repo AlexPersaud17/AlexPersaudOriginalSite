@@ -1,0 +1,76 @@
+body {
+	background-color: black;
+	background-image: url("http://img13.deviantart.net/f446/i/2010/072/5/d/his_name_is_robert_paulson_by_hollowvalentyne.png");
+}
+h1{
+	color: white; 
+	text-align: center; 
+	font-family: courier; 
+	font-size: 36px;
+}
+h2{
+	color:white; 
+	text-align:center; 
+	font-family: courier;
+}
+p{
+	text-align: center;
+	border: 2px solid white;
+	background-color: black;
+	color: white;
+	font-family: courier;
+	padding: 10px;
+}
+table{
+	background-color: black;
+	width: 100%;
+	border: 2px solid white;
+	padding: 10px;
+	border-spacing: 10px;
+}
+th{
+	font-size:24px; 
+	color:white; 
+	font-family:courier;
+}
+td{
+	color:white; 
+	font-family:courier;
+}
+ol{
+	border: 2px solid white;
+	background-color: black;
+}
+li{
+	color:white; 
+	font-family:courier; 
+	font-size:18px;
+}
+#rule1{
+	display: block;
+    margin: 0 auto;
+	width: 75%;
+	height: 75%;
+}
+#buzzfeed{
+	width: 20%; 
+	height: 20%;
+}
+#soap{
+	display: block;
+    margin: 0 auto;
+	width: 50%;
+	height: 50%;
+}
+#fight{
+	display: block;
+    margin: 0 auto;
+	width: 80%;
+	height: 80%;
+}
+#ending{
+	display: block;
+    margin: 0 auto;
+	width: 80%;
+	height: 80%;
+}
