@@ -62,13 +62,7 @@ li{
 	width: 50%;
 	height: 50%;
 }
-#fight{
-	display: block;
-    margin: 0 auto;
-	width: 80%;
-	height: 80%;
-}
-#ending{
+#fight, #ending{
 	display: block;
     margin: 0 auto;
 	width: 80%;
