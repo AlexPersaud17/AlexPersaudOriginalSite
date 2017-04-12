@@ -1,19 +1,32 @@
 #profile-pic{
-	width: 250px;
+	width: 500px;
 	height: auto;
 }
 
 .tabs{
-	float: left;
-	left: 300px;
-	margin-left: 200px;
+	float: right;
+	margin-right: 150px;
 	position: relative;
 	top: -50px;
+	list-style: none;
+	font-family: courier;
+	font-size: 20px;
+}
+a:link{
+	text-decoration: none;
+}
+a{
+	color: black;
+}
+
+header{
+	border: 3px dashed black;
+	padding-bottom: 20px;
 }
 
 .logo{
-	display: block;
-    left: 100px;
+    left: 20px;
+    top: 20px;
     position: relative;
 }
 
