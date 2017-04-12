@@ -2,3 +2,34 @@
 	width: 250px;
 	height: auto;
 }
+
+.left_tabs{
+	float: left;
+	margin-left: 200px;
+}
+
+.right_tabs{
+	float: right;
+	margin-right: 400px;
+}
+
+.logo{
+	display: block;
+    left: 538px;
+    position: relative;
+    left: 538;
+}
+
+.section-headers{
+	text-align: center;
+}
+
+#about-me{
+	position: relative;
+	margin-top: 75px;
+}
+
+#cv{
+	position: relative;
+	margin-top: 75px;
+}
