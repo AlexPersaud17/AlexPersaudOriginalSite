@@ -4,7 +4,7 @@ $(document).ready(function(){
 	$('header').fadeIn(500)
 	$('.body-wrapper').delay(250).fadeIn(1000)
 
-	if(window.location.href.indexOf('index.html') > -1){
+	if(window.location.href.indexOf('/') > -1){
 		setTimeout(function(){ window.location = 'about.html'; }, 7000);
 	}
 });
