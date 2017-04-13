@@ -82,7 +82,13 @@ header{
 	margin-top: 75px;
 }
 
-.fun-pics{
+.rect{
 	width: 300px;
-	height: auto;
+	height: 200px;
+
+}
+
+.food, .sq{
+	width: 300px;
+	height: 300px;
 }
