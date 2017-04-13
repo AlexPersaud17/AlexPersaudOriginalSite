@@ -1,3 +1,7 @@
+.body-wrapper{
+	display: none;
+}
+
 #logo{
 	width: 500px;
 	height: auto;
@@ -13,6 +17,31 @@
 	font-size: 20px;
 	left: 475px;
 }
+
+.home-tabs{
+	float: left;
+	position: relative;
+	margin-left: 300px;
+	list-style: none;
+	font-family: courier;
+	font-size: 20px;
+	left: -100px;
+
+
+}
+
+
+#home-logo{
+	display: none;
+	position: relative;
+	width: 1000px;
+	height: auto;
+	top: 200px;
+	left: 170px;
+
+
+}
+
 a:link{
 	text-decoration: none;
 }
@@ -20,11 +49,15 @@ a{
 	color: black;
 }
 
+#home-header{
+	border: 3px dashed black;
+	padding-bottom: 35px;
+}
+
 header{
 	border: 3px dashed black;
 	padding-bottom: 20px;
 }
-
 .logo{
     left: 20px;
     top: 20px;
@@ -41,7 +74,6 @@ header{
 }
 
 .fun-pics{
-	float: left;
 	width: 300px;
 	height: auto;
 }
