@@ -1,17 +1,47 @@
-#profile-pic{
+.body-wrapper{
+	display: none;
+}
+
+#logo{
 	width: 500px;
 	height: auto;
 }
 
 .tabs{
-	float: right;
-	margin-right: 150px;
+	float: left;
+	margin-left: 150px;
 	position: relative;
 	top: -50px;
 	list-style: none;
 	font-family: courier;
 	font-size: 20px;
+	left: 475px;
 }
+
+.home-tabs{
+	float: left;
+	position: relative;
+	margin-left: 300px;
+	list-style: none;
+	font-family: courier;
+	font-size: 20px;
+	left: -100px;
+
+
+}
+
+
+#home-logo{
+	display: none;
+	position: relative;
+	width: 1000px;
+	height: auto;
+	top: 200px;
+	left: 170px;
+
+
+}
+
 a:link{
 	text-decoration: none;
 }
@@ -19,11 +49,15 @@ a{
 	color: black;
 }
 
+#home-header{
+	border: 3px dashed black;
+	padding-bottom: 35px;
+}
+
 header{
 	border: 3px dashed black;
 	padding-bottom: 20px;
 }
-
 .logo{
     left: 20px;
     top: 20px;
@@ -37,4 +71,9 @@ header{
 #about-me, #cv, #email-form{
 	position: relative;
 	margin-top: 75px;
+}
+
+.fun-pics{
+	width: 300px;
+	height: auto;
 }
