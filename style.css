@@ -4,13 +4,14 @@
 }
 
 .tabs{
-	float: right;
-	margin-right: 150px;
+	float: left;
+	margin-left: 150px;
 	position: relative;
 	top: -50px;
 	list-style: none;
 	font-family: courier;
 	font-size: 20px;
+	left: 475px;
 }
 a:link{
 	text-decoration: none;
