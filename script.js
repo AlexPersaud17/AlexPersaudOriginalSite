@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	window.location = 'https://alexpersaud17.github.io/index.html';
+	console.log(window.location.href)
 	$('#home-logo').fadeIn(1500).delay(1000).fadeOut(1500)
 	$('#welcome').delay(4000).fadeIn(1500).fadeOut(1500)
 	$('header').fadeIn(500)
