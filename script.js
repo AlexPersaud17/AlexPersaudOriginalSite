@@ -5,7 +5,7 @@ $(document).ready(function(){
 	$('header').fadeIn(500)
 	$('.body-wrapper').delay(250).fadeIn(1000)
 
-	if(window.location.href.indexOf('index.html') > -1){
-		setTimeout(function(){ window.location = 'about.html'; }, 7000);
+	if(window.location.href == "https://alexpersaud17.github.io/"){
+		setTimeout(function(){ window.location = "https://alexpersaud17.github.io/about.html"; }, 7000);
 	}
 });
