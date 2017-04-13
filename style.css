@@ -1,4 +1,4 @@
-#profile-pic{
+#logo{
 	width: 500px;
 	height: auto;
 }
@@ -38,4 +38,10 @@ header{
 #about-me, #cv, #email-form{
 	position: relative;
 	margin-top: 75px;
+}
+
+.fun-pics{
+	float: left;
+	width: 300px;
+	height: auto;
 }
