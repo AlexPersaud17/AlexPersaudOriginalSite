@@ -1,3 +1,7 @@
+
+body, html {
+    height: 100%;
+}
 #welcome{
 	text-align: center;
 	position: relative;
@@ -58,10 +62,6 @@ a{
 	color: black;
 }
 
-/*#home-header{
-	border: 3px dashed black;
-	padding-bottom: 35px;
-}*/
 
 header{
 	border: 3px dashed black;
@@ -85,10 +85,45 @@ header{
 .rect{
 	width: 300px;
 	height: 200px;
+	position: relative;
 
 }
 
 .food, .sq{
 	width: 300px;
 	height: 300px;
+	position: relative;
+}
+
+.cv-header{
+	transform: rotate(-90deg);
+	position: relative;
+	margin-top: 100px;
+	color: white;
+	font-size: 50px;
+	float: left;
+
+}
+
+.cv-wrapper{
+	
+}
+
+#cv-sidebar{
+	width: 400px;
+	height: 100%;
+	background-color: black;
+}
+.cv-sections{
+	float: left; 
+}
+
+.fun-pics{
+	z-index: 0;
+}
+.fun-pics-title{
+	position: relative;
+	z-index: -1;
+	top: -100px;
+	margin-left: 20px;
 }
