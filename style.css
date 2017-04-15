@@ -85,14 +85,15 @@ header{
 .rect{
 	width: 300px;
 	height: 200px;
-	position: relative;
+	float: left;
 
 }
 
 .food, .sq{
 	width: 300px;
 	height: 300px;
-	position: relative;
+	float: left;
+
 }
 
 .cv-header{
@@ -122,7 +123,7 @@ header{
 	z-index: 0;
 }
 .fun-pics-title{
-	position: relative;
+	position: absolute;
 	z-index: -1;
 	top: -100px;
 	margin-left: 20px;
